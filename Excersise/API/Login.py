@@ -1,4 +1,4 @@
-import credents
+import creds
 import pytest
 
 expected_output = "Invalid Username or Password"

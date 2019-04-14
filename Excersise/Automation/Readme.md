@@ -1,5 +1,4 @@
-Automation Assessment : 
-
+ 
 1. I have used python for a very long time and I feel very comfortable with it along with java. I felt like this would be easy and fast in Python hence I used Python.
  
 2. How do you debug a failed test in your test framework?
