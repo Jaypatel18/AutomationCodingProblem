@@ -2,16 +2,16 @@ import creds
 import pytest
 
 expected_output = "Invalid Username or Password"
-@pytest.mark.parametrize("test_input, expected_output",
+@pytest.mark.parametrize("Input, expected_output",
                          [
-                             ("apoorv@gmail.com", "Test12_44"),
-                             ("abc@gmail.com", "123456#*"),
-                             ("shipt@yahoo.com", "123456")
+                             ("jay.patel8161@gmail.com", "Test1234"),
+                             ("xyz@gmail.com", "897657#*"),
+                             ("shipt@gmail.com", "987654")
                          ]
                          )
 
-def test_invalid_credentails(test_input, expected_output):
+def test_wrong_cred(input, expected_output):
 
-    result = credentials.invalid_credentials(test_input)
+    output1 = credentials.wrong_cred(input)
 
-    assert result == "Invalid Username or Password"
+    assert output1 == "Invalid Username or Password"
